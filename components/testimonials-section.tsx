@@ -12,7 +12,7 @@ export default function TestimonialsSection() {
       author: "Sarah Johnson",
       title: "Customer Success Director",
       company: "TechCorp Inc.",
-      avatar: "/images/avatar/avatar-1.jpg",
+      avatar: "./images/avatar/avatar-1.jpg",
     },
     {
       quote:
@@ -20,7 +20,7 @@ export default function TestimonialsSection() {
       author: "Michael Chen",
       title: "VP of Sales",
       company: "GrowthWave",
-      avatar: "/images/avatar/avatar-2.jpg",
+      avatar: "./images/avatar/avatar-2.jpg",
     },
     {
       quote:
@@ -28,7 +28,7 @@ export default function TestimonialsSection() {
       author: "Elena Rodriguez",
       title: "General Counsel",
       company: "LegalEdge",
-      avatar: "/images/avatar/avatar-3.jpg",
+      avatar: "./images/avatar/avatar-3.jpg",
     },
   ]
 
