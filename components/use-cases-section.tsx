@@ -20,7 +20,7 @@ export default function UseCasesSection() {
         "Seamless escalation to human agents when needed",
         "Multilingual support without additional cost",
       ],
-      image: "/images/customer-service.jpg",
+      image: "./images/customer-service.jpg",
     },
     sales: {
       icon: <ShoppingCart className="h-6 w-6" />,
@@ -33,7 +33,7 @@ export default function UseCasesSection() {
         "Intelligent product recommendations",
         "Detailed analytics on customer interactions",
       ],
-      image: "/images/sales-automation.jpg",
+      image: "./images/sales-automation.jpg",
     },
     "data-analysis": {
       icon: <LineChart className="h-6 w-6" />,
@@ -46,7 +46,7 @@ export default function UseCasesSection() {
         "Natural language queries for complex data",
         "Visualization recommendations based on data type",
       ],
-      image: "/images/data-analysis.jpg",
+      image: "./images/data-analysis.jpg",
     },
     hr: {
       icon: <Users className="h-6 w-6" />,
@@ -59,7 +59,7 @@ export default function UseCasesSection() {
         "Candidate FAQ handling",
         "Onboarding process automation",
       ],
-      image: "/images/hr-recruitment.jpg",
+      image: "./images/hr-recruitment.jpg",
     },
     legal: {
       icon: <FileText className="h-6 w-6" />,
@@ -72,7 +72,7 @@ export default function UseCasesSection() {
         "Compliance checking against regulations",
         "Plain language summaries of complex documents",
       ],
-      image: "/images/legal-document-review.jpg",
+      image: "./images/legal-document-review.jpg",
     },
     operations: {
       icon: <Building className="h-6 w-6" />,
@@ -85,7 +85,7 @@ export default function UseCasesSection() {
         "Supply chain disruption detection",
         "Cross-department resource coordination",
       ],
-      image: "/images/operations-management.jpg",
+      image: "./images/operations-management.jpg",
     },
   }
 

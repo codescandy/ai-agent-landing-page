@@ -6,6 +6,12 @@ import PricingSection from "@/components/pricing-section"
 import TestimonialsSection from "@/components/testimonials-section"
 import CtaSection from "@/components/cta-section"
 import Footer from "@/components/footer"
+import Btn from "@/components/btn-download"
+
+
+
+
+
 
 export default function Home() {
   return (
@@ -18,6 +24,9 @@ export default function Home() {
         <TestimonialsSection />
         <PricingSection />
         <CtaSection />
+        <div className="fixed bottom-4 right-4">
+     <Btn url="https://codescandy.github.io/ai-agent-landing-page/" label="Download Template" />
+     </div>
       </main>
       <Footer />
     </div>
