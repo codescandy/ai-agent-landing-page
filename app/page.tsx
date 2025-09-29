@@ -25,7 +25,7 @@ export default function Home() {
         <PricingSection />
         <CtaSection />
         <div className="fixed bottom-4 right-4">
-     <Btn url="https://codescandy.github.io/ai-agent-landing-page/" label="Download Template" />
+     <Btn url="https://codescandy.com/" label="Download Template" />
      </div>
       </main>
       <Footer />
