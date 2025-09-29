@@ -115,7 +115,8 @@ export default function PricingSection() {
                   {plan.monthlyPrice !== null ? (
                     <>
                       <span className="text-4xl font-bold">
-                        ${isAnnual ? plan.annualPrice / 12 : plan.monthlyPrice}
+                       ${isAnnual ? (plan.annualPrice / 12).toFixed(2) : plan.monthlyPrice}
+
                       </span>
                       <span className="text-slate-600">/month</span>
                       {isAnnual && (
